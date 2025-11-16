@@ -2480,3 +2480,40 @@ select.mobile-device {
 .navbar-brand span {
   color: #fff; /* Optional: makes the dot a different color */
 }
+
+.social-icons {
+    margin-top: 25px;
+}
+
+.social-icons .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    background: #333;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover Effects */
+.social-icons .icon:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: #ff4081; /* change highlight color here */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Optional: Different colors per platform */
+.icon.facebook:hover {
+    background: #1877F2;
+}
+.icon.instagram:hover {
+    background: #E4405F;
+}
+.icon.linkedin:hover {
+    background: #0077B5;
+}
